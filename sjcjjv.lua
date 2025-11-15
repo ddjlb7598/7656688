@@ -79,7 +79,7 @@ function YtPr()
 	TextLabel.Position = UDim2.new(0.401250005, 0, 0.169999987, 0)
 	TextLabel.Size = UDim2.new(0.534722269, 0, 0.310000002, 0)
 	TextLabel.Font = Enum.Font.Highway
-	TextLabel.Text = "安脚本作者ato"
+	TextLabel.Text = "迪脚本作者xipro"
 	TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 	TextLabel.TextScaled = true
 	TextLabel.TextSize = 14.000
@@ -92,7 +92,7 @@ function YtPr()
 	TextButton.Position = UDim2.new(0.401250005, 0, 0.479999989, 0)
 	TextButton.Size = UDim2.new(0.534722269, 0, 0.349999994, 0)
 	TextButton.Font = Enum.Font.SourceSans
-	TextButton.Text = "关注作者b站号"
+	TextButton.Text = "关注作者xipro"
 	TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 	TextButton.TextScaled = true
 	TextButton.TextSize = 14.000
