@@ -461,7 +461,7 @@ function CreateSupportList(list_game)
 	Tittle.Position = UDim2.new(0.0399999991, 0, 0, 0)
 	Tittle.Size = UDim2.new(0, 265, 0, 39)
 	Tittle.Font = Enum.Font.Highway
-	Tittle.Text = "安脚本支持的游戏(ui作者为hoho)"
+	Tittle.Text = "迪脚本支持的游戏(ui作者为xipro)"
 	Tittle.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Tittle.TextScaled = true
 	Tittle.TextSize = 14.000
@@ -617,16 +617,16 @@ if getgenv().Key and listPre[game.GameId] ~= nil then
 	loadstring(listPre[tonumber(game.GameId)])()
 elseif not getgenv().Key and list[game.GameId] ~= nil then
     game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "当前游戏:"..name[game.GameId].."";
-                Text ="检测到你当前游玩的游戏为:"..name[game.GameId].."\n已自动为你执行此游戏脚本";
+                Title = "当前78游戏:"..name[game.GameId].."";
+                Text ="检测到你当前游玩的游戏为:"..name[game.GameId].."\n已自动为你🐴执行此游戏脚本";
                 Duration = 3;
             })
 	loadstring(list[tonumber(game.GameId)])()
 else
 	game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "错误：没有此游戏脚本";
-                Text ="安脚本暂时没有此游戏脚本，你可以加q群来许愿游戏脚本，qq群号已自动复制到您的粘贴板里";
+                Title = "错误：没有78此游戏脚本";
+                Text ="迪脚本暂时没有此游戏脚本，你可以加嘿嘿群来许愿游戏脚本，嘿嘿群号已自动复制到您的粘贴板里";
                 Duration = 5;
             })
-	setclipboard("984571833")
+	setclipboard("789113")
 end
